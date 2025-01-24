@@ -2,7 +2,7 @@
 
 int main(){
     double c;
-    scanf("%f", &c);
-    printf("You entered: %.4f", c);
+    scanf("%lf", &c);
+    printf("You entered: %.4lf", c);
     return 0;
 }
