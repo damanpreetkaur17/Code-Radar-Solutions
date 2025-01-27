@@ -5,11 +5,11 @@ int main(){
     sacnf("%d", &a);
     if (a>0)
     {
-        printf("Positive %d");
+        printf("Positive %d", a);
     }
     else 
     {
-        printf("Negative %d");
+        printf("Negative %d", a);
     }
     return 0;
 }
