@@ -12,4 +12,5 @@ int main(){
     [
         printf("True");
     ]
-}return 0;
+return 0;
+}
