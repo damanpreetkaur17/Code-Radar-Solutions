@@ -11,5 +11,5 @@ int main(){
     {
         printf("Negative");
     }
-    returnn 0;
+    return 0;
 }
