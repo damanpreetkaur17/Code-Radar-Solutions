@@ -15,4 +15,5 @@ int main(){
     {
         printf("Not an Alphabet");
     }
+    return 0;
 }
