@@ -9,8 +9,8 @@ int main(){
         printf("False");
     }
     else
-    [
+    {
         printf("True");
-    ]
-return 0;
+    }
+    return 0;
 }
