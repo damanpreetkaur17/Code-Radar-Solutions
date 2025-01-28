@@ -13,5 +13,4 @@ int main() {
         printf("Not Set");
     }
     return 0;
-    return 0;
 }
