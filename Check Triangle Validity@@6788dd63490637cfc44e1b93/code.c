@@ -7,11 +7,11 @@ int main(){
     scanf("%d", &c);
     if (a+b>c && b+c>a && c+a>b)
     {
-        print("Valid");
+        printf("Valid");
     }
     else
     {
-        print("Invalid");
+        printf("Invalid");
     }
     return 0;
 }
