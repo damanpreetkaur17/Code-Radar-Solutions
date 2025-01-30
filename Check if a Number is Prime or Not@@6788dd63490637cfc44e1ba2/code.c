@@ -1,32 +1,20 @@
 #include <stdio.h>
 
 int main(){
-    int a;
-    scanf("%d", &a);
-    if (a<=1)
+    int n;
+    scanf("%d", &n);
+    if (n<2)
     {
         printf("Not Prime");
     }
-    else if (a==2)
+    else if (n==2)
     {
         printf("Prime");
     }
-    else if (a%2==0)
+    else if (n%2==0 || n%3==0 || n%5==0 || n%7==0)
     {
-        printf("Not Prime");
-    } 
-    else if (a%3==0)
-    {
-        printf("Not Prime");
+        printf(n == 2 || n==3 || n==5 || n==7 ? "Prime" : "Not Prime");
     }
-    else if (a%5==0)
-    {
-        printf("Not Prime");
-    }
-    else if (a%7==0)
-    {
-        printf("Not Prime");
-    } 
     else
     {
         printf("Prime");
