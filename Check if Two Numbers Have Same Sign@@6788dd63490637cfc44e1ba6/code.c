@@ -12,7 +12,7 @@ int main() {
         printf("Same Sign");
     }
     else{
-        pritnf("Different Sign");
+        printf("Different Sign");
     }
     return 0;
 }
