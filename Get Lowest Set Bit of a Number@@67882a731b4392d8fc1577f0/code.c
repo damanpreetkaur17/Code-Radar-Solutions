@@ -8,7 +8,8 @@ int findLowestSetBitPosition(int n){
         }
         n = n/2;
         position++;
-    } }
+    } 
+    return -1;}
     return -1;
 int main(){
     int n;
