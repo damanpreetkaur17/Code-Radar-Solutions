@@ -8,13 +8,13 @@ int findLowestSetBitPosition(int n){
         }
         n = n/2;
         position++;
-    }
+    } }
     return -1;
 int main(){
     int n;
     scanf("%d", &n);
     int result = findLowestSetBitPosition(n);
     printf("%d", result);
+    return 0;
 }
-return 0;
-}
+
