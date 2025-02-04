@@ -2,11 +2,11 @@
 
 int countLeadingZeroes(int n){
     int count = 0;
-    while(n<(1<<31)){
-        n = n<<1;
+    while( n< (1 << 31)){
+        n = n << 1;
         count++;
     }
-    return 0;
+    return count;
 }
 int main(){
     int n;
