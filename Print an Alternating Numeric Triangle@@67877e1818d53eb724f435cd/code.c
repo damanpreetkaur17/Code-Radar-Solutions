@@ -13,5 +13,5 @@ int main(){
         }
         printf("\n");
     }
-    retuan 0;
+    return 0;
 }
