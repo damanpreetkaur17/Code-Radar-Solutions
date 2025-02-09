@@ -3,16 +3,11 @@
 int main(){
     int n;
     scanf("%d", &n);
-    for (int i = 1; i<=n ; i++){
+    for (int i = 1; i<=n; i++){
+        int start = i % 2;
         for (int j = 1; j<=i; j++){
-        if (i%2 == 1)
-        {
-            printf("1");
-        }
-        else 
-        {
-            printf("0");
-        }
+            printf("%d", start);
+            start = 1 - start;
         }
         printf("\n");
     }
