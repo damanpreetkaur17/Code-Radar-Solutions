@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-int countLeadingZeroes(int n){
-    int count = 0;
-    if(n == 0){
-        return 32;
-    }
-    while( n< (1 << 31)){
-        n = n << 1;
-        count++;
-    }
-    return count;
-}
 int main(){
-    int n;
-    scanf("%d", &n);
-    int result = countLeadingZeroes(n);
-    printf("%d", result);
+    int num, count = 0;
+    scanf("%d", &num);
+    if (num == 0){
+        printf("32");
+        return 0;
+    }
+    for ( int i = 31; i>=0; i--){
+        if ((num & (1<<i)) ==0){
+            count++;
+        }
+        else {
+            break;
+        }
+    }
+    printf("%d", count);
     return 0;
 }
