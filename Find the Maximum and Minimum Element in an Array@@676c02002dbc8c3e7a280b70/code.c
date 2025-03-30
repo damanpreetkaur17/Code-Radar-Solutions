@@ -10,7 +10,7 @@ int main(){
     int min = a[0];
     int max = a[0];
     for(int i = 1; i<n; i++){
-        if (min > a[0]){
+        if (min > a[i]){
             min = a[i];
         }
         if (max = a[i])
