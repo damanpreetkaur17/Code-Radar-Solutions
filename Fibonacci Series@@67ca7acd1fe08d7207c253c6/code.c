@@ -1,11 +1,10 @@
-// Your code here...
-int fibonacciSeries(int n){
-    for(int i=0; i<n; i++){
-        if (n==0)
-        return 0;
-        else if(n==1)
-        return 1;
-        else
-        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
+void fibonacciSeries(){
+    int a = 0, b = 1, next;
+    for(int i = 0; i<n; i++){
+        printf("%d ", a);
+        next = a+b;
+        a=b;
+        b=next;
     }
+    printf("\n");
 }
