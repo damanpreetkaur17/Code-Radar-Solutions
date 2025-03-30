@@ -1,5 +1,5 @@
 // Your code here...
-void isPrime(int t){
+int isPrime(int t){
     if(t==2)
     {printf("1");}
     else if (t%2==0)
