@@ -13,7 +13,7 @@ int main(){
         if (min > a[i]){
             min = a[i];
         }
-        if (max = a[i])
+        if (max < a[i])
             max = a[i];
     }
     printf("%d %d", min, max);
