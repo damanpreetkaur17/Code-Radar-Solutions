@@ -4,8 +4,6 @@ int isPrime(int t){
     return 1;
     else if (t<2)
     return 0;
-    else if(t%3==0)
-    return 1;
     else if (t%2==0)
     return 0;
     else 
